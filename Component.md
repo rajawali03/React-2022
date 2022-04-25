@@ -1,13 +1,13 @@
 # Component
 - Navbar: isShow
 - Card: img, title
-- Footer: bgcolor
+- Footer: bgcolor - Fahri
 - Box: bgcolor
 - List: number
 - Hero: title, img, subtitle, color
 - ButtonDown
 - Button: color, active
-- Carousel -> pakai library
+- Carousel -> pakai library - Fahri
 
 
 # Page
