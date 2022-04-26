@@ -2,8 +2,11 @@ import logo from "./flutter.svg";
 import "./App.css";
 import Button from "./Components/Button";
 import Box from "./Components/Box";
+import Hero from "./Components/Hero";
 
 function App() {
+  const dummySubTitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique dis volutpat, amet, erat nibh. Amet, integer velit in malesuada arcu, mi, porttitor id. In ac tellus et neque."
+
   return (
     <div className="App">
       <header className="App-header">
@@ -12,6 +15,9 @@ function App() {
         <p>Hello World</p>
         <Button className="button-style" name="klik me" />
       </header>
+      <div style={{ padding: '20px 100px' }}>
+        <Hero decorationColor="#F0CB3C" title="Info Resiskom" textColor="#A5860F" subtitle={dummySubTitle} />
+      </div>
       <div style={{ padding: '20px 100px' }}>
         <Box color='#FEF9C3' padding="50px 20px">
           <h1>Visi dan Misi<br />Prodi Rekayasa Sistem Komputer</h1>
