@@ -1,6 +1,8 @@
 import logo from "./flutter.svg";
 import "./App.css";
 import Button from "./Components/Button";
+import ButtonDown from "./Components/ButtonDown";
+import List from "./Components/List";
 
 function App() {
   return (
@@ -9,7 +11,11 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Welcome to React Anjayy</h1>
         <p>Hello World</p>
-        <Button className="button-style" name="klik me" />
+        <div>
+          <Button color="#7735C3" active={false} >asd</Button>
+          <ButtonDown />
+          <List>asdasdas<br/> asdasdjasd</List>
+        </div>
       </header>
     </div>
   );
