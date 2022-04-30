@@ -1,0 +1,13 @@
+.slick-container {
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 1rem;
+}
