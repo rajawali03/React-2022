@@ -3,10 +3,10 @@
 - Card: img, title
 - Footer: bgcolor - Fahri
 - Box: bgcolor
-- List: number
+- List: number - nugra
 - Hero: title, img, subtitle, color
-- ButtonDown
-- Button: color, active
+- ButtonDown - Nugra
+- Button: color, active - Nugra
 - Carousel -> pakai library - Fahri
 
 
