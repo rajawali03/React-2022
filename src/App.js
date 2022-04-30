@@ -6,6 +6,7 @@ import Hero from "./Components/Hero";
 import ButtonDown from "./Components/ButtonDown";
 import List from "./Components/List";
 import Carousel from "./Components/StudyListCarousel";
+import Footer from "./Components/Footer";
 
 function App() {
   const dummySubTitle =
@@ -98,6 +99,11 @@ function App() {
           </p>
         </Box>
       </div>
+      <Footer backgroundColor="#DCDCDC" />
+      <Footer backgroundColor="#FEF9C3" />
+      <Footer backgroundColor="#C6CDDB" />
+      <Footer backgroundColor="#FFCBCF" />
+      <Footer backgroundColor="#E3C2F6" />
     </div>
   );
 }
