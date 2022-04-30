@@ -5,6 +5,7 @@ import Box from "./Components/Box";
 import Hero from "./Components/Hero";
 import ButtonDown from "./Components/ButtonDown";
 import List from "./Components/List";
+import Carousel from "./Components/StudyListCarousel";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           </List>
         </div>
       </header>
+
       <div style={{ padding: "20px 100px" }}>
         <Hero
           decorationColor="#F0CB3C"
@@ -36,6 +38,11 @@ function App() {
           subtitle={dummySubTitle}
         />
       </div>
+
+      <div style={{ padding: "20px 100px" }}>
+        <Carousel />
+      </div>
+
       <div style={{ padding: "20px 100px" }}>
         <Box color="#FEF9C3" padding="50px 20px">
           <h1>
