@@ -7,6 +7,7 @@ import ButtonDown from "./Components/ButtonDown";
 import List from "./Components/List";
 import Carousel from "./Components/StudyListCarousel";
 import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
 
 function App() {
   const dummySubTitle =
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar isShow={false}></Navbar>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Welcome to React Anjayy</h1>
