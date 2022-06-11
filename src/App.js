@@ -9,6 +9,12 @@ import Carousel from "./Components/StudyListCarousel";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 
+import resiskom from "./assets/image/info-resiskom.svg";
+import himpunan from "./assets/image/info-himpunan.svg";
+import kepanitian from "./assets/image/info-kepanitian.svg";
+import akademik from "./assets/image/info-akademik.svg";
+import { Card } from "./Components/Card";
+
 function App() {
   const dummySubTitle =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique dis volutpat, amet, erat nibh. Amet, integer velit in malesuada arcu, mi, porttitor id. In ac tellus et neque.";
@@ -39,6 +45,21 @@ function App() {
           textColor="#A5860F"
           subtitle={dummySubTitle}
         />
+      </div>
+
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "1rem",
+          padding: "0 4rem",
+        }}
+      >
+        <Card image={resiskom} text="Info Resiskom" />
+        <Card image={himpunan} text="Info Himpunan" />
+        <Card image={kepanitian} text="Info Kepanitian" />
+        <Card image={akademik} text="Info Akademik" />
       </div>
 
       <div style={{ padding: "20px 100px" }}>
